@@ -18,7 +18,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class CateringPackageResource extends Resource
 {
-    protected static ?string $model = CateringPackage::class;
+    protected static ?string $model = CateringPackage::class;r
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
